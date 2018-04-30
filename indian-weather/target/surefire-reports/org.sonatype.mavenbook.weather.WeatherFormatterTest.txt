@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: org.sonatype.mavenbook.weather.WeatherFormatterTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.695 s <<< FAILURE! - in org.sonatype.mavenbook.weather.WeatherFormatterTest
+testFormat(org.sonatype.mavenbook.weather.WeatherFormatterTest)  Time elapsed: 0.534 s  <<< FAILURE!
+junit.framework.ComparisonFailure: 
+expected:<...her Conditions for:
+[New York, NY, US
+Temperature: 39
+Condition: Fair
+Humidity: 67
+Wind Chill: 39]
+*******************...> but was:<...her Conditions for:
+[, , 
+Temperature: 
+Condition: 
+Humidity: 
+Wind Chill: ]
+*******************...>
+	at org.sonatype.mavenbook.weather.WeatherFormatterTest.testFormat(WeatherFormatterTest.java:26)
+
