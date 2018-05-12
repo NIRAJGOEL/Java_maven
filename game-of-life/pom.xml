@@ -495,4 +495,16 @@
             </reporting>
         </profile>
     </profiles>
+<distributionManagement>
+  <repository>
+         <id>Weatherapp</id>
+        <name>Internal Releases</name>
+        <url>http://54.202.27.15:8081/repository/Game-of-Life-Release/</url>
+  </repository>
+  <snapshotRepository>
+        <id>Weatherapp</id>
+        <name>Internal Releases</name>
+        <url>http://54.202.27.15:8081/repository/Game-of-Life-Snapshot/</url>
+        </snapshotRepository>
+</distributionManagement>
 </project>
